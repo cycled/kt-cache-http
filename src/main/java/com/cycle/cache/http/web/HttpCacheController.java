@@ -55,7 +55,7 @@ public class HttpCacheController implements LastModified {
 			return new ResponseEntity<>(headers,HttpStatus.NOT_MODIFIED);
 		}
 		
-		String body = "<a href=''>点击访问链接2</>";
+		String body = "<a href=''>点击访问链接abv</>";
 		MultiValueMap<String, String> headers = new HttpHeaders();
 		// 当前时间
 		headers.add("Date", gmtDateFormat.format(new Date(now)));
